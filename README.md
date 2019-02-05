@@ -4,10 +4,10 @@ I had worked on a project where we pass a big amount of data to react. The amoun
 The solution is update state not after every letter has been typed out but after the user stops typing. To achieve that we can use two type of inputs controlled and uncontrolled which works together. 
 
 ### How does it work?
-It's update state on when a user stops typing. 
+It's update state when a user stops typing. 
 
 ### Where to use it?
-In apps where you get time lags during typing in controlled inputs.
+In apps where you get time lags during typing in the react controlled inputs.
 
 
 ## What to do after download?
