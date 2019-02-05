@@ -10,19 +10,15 @@ It's update state on when a user stops typing.
 In apps where you get time lags during typing in controlled inputs.
 
 
-### What to do after download?
+## What to do after download?
+
+In the project directory, you can run:
+
+### `npm install`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Available Scripts
-
-In the project directory, you can run:
-
-After download:
-
-### `npm install`
-
-then
 
 ### `npm start`
 
