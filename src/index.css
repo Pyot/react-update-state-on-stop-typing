@@ -6,9 +6,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.redborder{
+  border-left: 6px solid red;
+  background-color: lightgrey;
+  padding: 5px;
+  padding-left: 10px;
+
 }

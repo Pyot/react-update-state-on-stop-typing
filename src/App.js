@@ -23,11 +23,11 @@ class ForHeavyData extends Component {
       <div className={'container'}>
         <div className={'row'}>
           <div className={'col-md-6'}>
-            <div class="form-group">
-              <label for="exampleInputEmail1"></label>
+            <div className={"form-group"}>
+              <label forHtml="exampleInputEmail1"></label>
               <input
                 className={'form-control'}
-                placeholder={'Type text'}
+                placeholder={'Please type text...'}
                 defaultValue={this.state.value}
                 onChange={this.handleChange}
                 onKeyDown={this.handleKeyDown} />
@@ -37,9 +37,9 @@ class ForHeavyData extends Component {
         </div>
         <div className={'row'}>
           <div className={'col-md-6'}>
-            <p style={{'color': 'red'}}>
+            <div className={'redborder'}>
               {this.state.value !== '' ? this.state.value : 'You will see updated state here'}
-            </p>
+            </div>
           </div>
         </div>
       </div>
