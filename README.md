@@ -1,8 +1,30 @@
+
+## Introduction
+I had worked on a project where we pass a big amount of data to react. The amount of data cause lags after you type each letter. I couldn't use uncontrolled inputs because a form was spread on 5 different tabs and when you switched tab it had lost the input value. This is sort version of the situation that I had. 
+The solution is update state not after every letter has been typed out but after the user stops typing. To achieve that we can use two type of inputs controlled and uncontrolled which works together. 
+
+### How does it work?
+It's update state on when a user stops typing. 
+
+### Where to use it?
+In apps where you get time lags during typing in controlled inputs.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## What to do after download?
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+After download:
+
+### `npm install`
+
+then
 
 ### `npm start`
 
